@@ -1,20 +1,28 @@
 {
   "name": "urlshortner",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A basic app showing a url shortner with node and mongo",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-   "devStart":"nodemon server.js"
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulAyling/myUrlShortner.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulAyling/myUrlShortner/issues"
+  },
+  "homepage": "https://github.com/PaulAyling/myUrlShortner#readme",
   "dependencies": {
     "ejs": "^3.1.5",
     "express": "^4.17.1",
     "mongoose": "^5.10.15"
   },
   "devDependencies": {
-     "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6"
   }
 }
